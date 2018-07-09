@@ -1,6 +1,6 @@
 ﻿namespace Domain.User.Interface
 {
-    public interface IUserService : IService<User>
+    public interface IUserService : IService<UserEntity>
     {
         
     }

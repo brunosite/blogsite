@@ -1,6 +1,8 @@
-﻿namespace App.User.Interface
+﻿using Domain.User;
+
+namespace App.User.Interface
 {
-    public interface IUserAppService : IAppService<Domain.User.User>
+    public interface IUserAppService : IAppService<UserEntity>
     {
         
     }

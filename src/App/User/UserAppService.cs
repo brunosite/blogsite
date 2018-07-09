@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using App.User.Interface;
+using Domain.User;
 using Domain.User.Interface;
 
 namespace App.User
@@ -13,27 +14,27 @@ namespace App.User
             _userRepository = userRepository;
         }
         
-        public ICollection<Domain.User.User> All()
+        public ICollection<UserEntity> All()
         {
             throw new System.NotImplementedException();
         }
 
-        public IList<Domain.User.User> FindById(int id)
+        public IList<UserEntity> FindById(int id)
         {
             throw new System.NotImplementedException();
         }
 
-        public IList<Domain.User.User> FindWhere()
+        public IList<UserEntity> FindWhere()
         {
             throw new System.NotImplementedException();
         }
 
-        public IEnumerable<Domain.User.User> Update()
+        public IEnumerable<UserEntity> Update()
         {
             throw new System.NotImplementedException();
         }
 
-        public IEnumerable<Domain.User.User> Delete()
+        public IEnumerable<UserEntity> Delete()
         {
             throw new System.NotImplementedException();
         }
